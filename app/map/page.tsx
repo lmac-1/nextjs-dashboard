@@ -1,3 +1,4 @@
+// docs: https://nextjs.org/docs/app/building-your-application/optimizing/third-party-libraries
 import { GoogleMapsEmbed } from "@next/third-parties/google";
 
 export default function Page() {
