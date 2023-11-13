@@ -16,7 +16,7 @@ export default function Page() {
         height={600}
         center={`${defaultLocation.lat}, ${defaultLocation.lng}`}
         allowfullscreen={true}
-        // this property means that the map will stretch the width of the parent container (in this case max-w-xl)
+        // this property means that the map will stretch the width of the parent container (in this case max-w-sm), you can add extras by listing them with semi-colons
         style="width:100%"
         loading="lazy"
         zoom="15"
